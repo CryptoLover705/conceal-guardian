@@ -1,5 +1,5 @@
 // Copyright (c) 2019, Taegus Cromis, The Conceal Developers
-//
+// Copyright (c) 2019, CryptoLover, The SmartCryptoTech Developers
 // Please see the included LICENSE file for more information.
 
 const commandLineUsage = require('command-line-usage');
@@ -50,8 +50,8 @@ try {
 if (cmdOptions.help) {
   const sections = [
     {
-      header: 'Conceal Node Guardian',
-      content: 'This is a guardian app for the conceal node daemon. Handles restarts, sends notifications, registers to pool...'
+      header: 'SmartCryptoTech Node Guardian',
+      content: 'This is a guardian app for the smartcrytotech node daemon. Handles restarts, sends notifications, registers to pool...'
     },
     {
       header: 'Options',
