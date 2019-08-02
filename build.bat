@@ -12,7 +12,7 @@ del .\bin\linux\*.* /F /Q
 call pkg index.js --targets node10-linux-x64 --output .\bin\linux\guardian-linux64
 copy ccx-guardian.service.template .\bin\linux
 copy config.json.sample .\bin\linux\config.json
-.\tools\7z.exe a -ttar .\bin\linux\guardian-linux64.tar .\bin\linux\guardian-linux64 .\bin\linux\config.json .\bin\linux\ccx-guardian.service.template
+.\tools\7z.exe a -ttar .\bin\linux\guardian-linux64.tar .\bin\linux\guardian-linux64 .\bin\linux\config.json .\bin\linux\sct-guardian.service.template
 .\tools\7z.exe a -tgzip .\bin\linux\guardian-linux64.tar.gz .\bin\linux\guardian-linux64.tar
 
 REM OSX build (uncomplete, just the binary)
