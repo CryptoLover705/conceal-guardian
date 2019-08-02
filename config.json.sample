@@ -1,7 +1,7 @@
 {
   "node": {
     "args": [],
-    "port": 16000,
+    "port": 9252,
     "rfcTimeout": 10,
     "bindAddr": "0.0.0.0"
   },
@@ -13,11 +13,11 @@
     "maxInitTime": 900
   },
   "api": {
-    "port": 8080
+    "port": 3001
   },
   "pool": {
     "notify": {
-      "url": "https://explorer.conceal.network/pool/update",
+      "url": "https://blockexplorer.smart-crypto-tech.co.uk",
       "interval": 30
     }
   }
